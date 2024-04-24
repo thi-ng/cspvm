@@ -1,0 +1,15 @@
+[
+	{
+		"name": "MemoryLayout",
+		"type": "struct",
+		"fields": [{ "name": "taskList", "type": "LayoutTaskList" }]
+	},
+	{
+		"name": "LayoutTaskList",
+		"type": "struct",
+		"fields": [
+			{ "name": "base", "type": "i16" },
+			{ "name": "offsetHeadActive" }
+		]
+	}
+]

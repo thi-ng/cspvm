@@ -1,0 +1,13 @@
+.{
+    .name = "vm",
+    .version = "0.0.1",
+    .dependencies = .{
+        .@"thi.ng" = .{
+            .url = "https://github.com/thi-ng/zig-thing/archive/refs/tags/v0.0.3.tar.gz",
+            .hash = "1220273ba39dcdf145a51422fd942ac8e502f44ea203d49460acc9c2a1c09da44883",
+        },
+    },
+    .paths = .{
+        "",
+    },
+}

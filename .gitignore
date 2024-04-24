@@ -1,0 +1,6 @@
+/dev
+/dist
+/export
+/src/wasm
+/zig-cache
+/zig-out
