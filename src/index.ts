@@ -115,7 +115,7 @@ mem.set(utf8Encode("done"), 0x210);
 
 const vm = new VM(mem, {
 	traps: TRAPS,
-	logger: new ConsoleLogger("vm", "INFO"),
+	logger: new ConsoleLogger("vm", "DEBUG"),
 });
 
 // vm.addTask(100);
