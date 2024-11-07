@@ -13,4 +13,4 @@ wasm2wat -f --generate-names -o src/wasm/vm-zig-opt.wat src/wasm/vm-zig-opt.wasm
 wasm-stats src/wasm/vm-zig.wasm -o dev/vm-zig.dist
 wasm-stats src/wasm/vm-zig-opt.wasm -o dev/vm-zig-opt.dist
 
-ls -l src/wasm
+ls -l src/wasm/vm-zig*
